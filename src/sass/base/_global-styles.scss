@@ -39,3 +39,20 @@ img {
 address {
   font-style: normal;
 }
+
+body {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: var(--black-color-text);
+  background-color: var(--default-background);
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
